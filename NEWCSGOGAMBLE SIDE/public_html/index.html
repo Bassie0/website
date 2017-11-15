@@ -6,43 +6,13 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <title>gamble site</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script>
-            var userChoice = function() {
-                var iets = prompt("Hoeveel zet je in?").toLowerCase();
-                for(var i = 1; i < 100; i++) {
-                    if (iets !== i) {
-                        iets = userChoice();
-                    }
-                }
-
-                return iets;
-            };
-
-            var computerChoice = Math.random()*100;
-
-            var compare = function(choice1,choice2) {
-                if(computerChoice <= 50) {
-                    Points -= choice2;
-                    return "You lose!";
-                } else {
-                    Points += choice2 * 2;
-                    return "You win!";
-                }
-            };
-              var Points = 1000;
-              
-                  
-              
-        </script>
+        <link href="frontpage.css" rel="stylesheet" type="text/css"/>
     </head>
-     <body onLoad="">
-        <p id="p1">hehe xd!</p>
-        
-        <script>
-            document.getElementById("p1").innerHTML = compare(computerChoice, userChoice());
-        </script>
+    <body>
+        <h1 id="emblem">Gamble site</h1>
+        <
     </body>
 </html>

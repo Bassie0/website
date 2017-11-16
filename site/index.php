@@ -6,11 +6,18 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <title>suk a dickcissel</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="favicon.ico">
+        <link href="menu_bar.css" rel="stylesheet" type="text/css"/>
     </head>
-    <body>
+    <body style="background-color: antiquewhite">
+         <a href="index.php">  
+            <img id="logo" src="logo.png" alt="homepage"/>
+        </a> 
+        <h1>GAMBLE SITE</h1>
+        <div id="points">points</div>
         <?php
         
         require './login.php';

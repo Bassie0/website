@@ -6,13 +6,16 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <title>suk a dickcissel</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
         <?php
-        echo "<h1>test</h1>";
+            $bla = "bla";
+            echo "test";
+            echo $bla;
         ?>
+        <p>hallo</p>
     </body>
 </html>

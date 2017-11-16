@@ -12,7 +12,11 @@ and open the template in the editor.
     </head>
     <body>
         <?php
-        echo "<h1>test</h1>";
+        
+        require './login.php';
+        
+        $login = new login("","");
+        $login->login();
         ?>
     </body>
 </html>

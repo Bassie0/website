@@ -18,12 +18,12 @@ and open the template in the editor.
         </a> 
         <h1>GAMBLE SITE</h1>
         <div id="points">points</div>
-        <?php
-        
-        require './database.php';
-        
-        $bla = new database();
-        $bla->register("bassie11", "test123", "test@mail.nl");
-        ?>
+        <ul>
+        <li><a class="active" href="#home">Home</a></li>
+            <li><a href="slots">Nieuws</a></li>
+            <li><a href="Info">Informie</a></li>
+            <li><a href=LoginButton">Log in</a></li>
+        </ul>
+
     </body>
 </html>

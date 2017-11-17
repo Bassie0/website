@@ -20,10 +20,10 @@ and open the template in the editor.
         <div id="points">points</div>
         <?php
         
-        require './login.php';
+        require './database.php';
         
-        $login = new login("","");
-        $login->login();
+        $bla = new database();
+        $bla->register("bassie11", "test123", "test@mail.nl");
         ?>
     </body>
 </html>

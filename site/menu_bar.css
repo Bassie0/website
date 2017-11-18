@@ -13,9 +13,9 @@ and open the template in the editor.
 }
 
 #points {
-    background-color: whitesmoke;
+    background-color: grey;
     width: 45px;    
-    border: 10px #808080;
+    border: 10px white;
     padding: 2px 2px 2px 2px;
     border-style: solid;
     border-width: medium;
@@ -28,12 +28,14 @@ h1 {
    float: left;
 }
 
-ul {
+#menubar {
     list-style-type: none;
-    margin: 10px;
+    margin: 150px 100px 100px 433px;
     padding: 0;
     overflow: hidden;
     background-color: #333;
+    width: 32%;
+    position: fixed;        
 }
 
 li {
@@ -44,7 +46,7 @@ li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px 36px;
     text-decoration: none;
 }
 

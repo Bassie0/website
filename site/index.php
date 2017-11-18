@@ -12,18 +12,19 @@ and open the template in the editor.
         <link rel="icon" href="favicon.ico">
         <link href="menu_bar.css" rel="stylesheet" type="text/css"/>
     </head>
-    <body style="background-color: antiquewhite">
+    <body style="background-color: #b38600">
          <a href="index.php">  
             <img id="logo" src="logo.png" alt="homepage"/>
         </a> 
         <h1>GAMBLE SITE</h1>
         <div id="points">points</div>
-        <ul>
-        <li><a class="active" href="#home">Home</a></li>
-            <li><a href="slots">Nieuws</a></li>
-            <li><a href="Info">Informie</a></li>
-            <li><a href=LoginButton">Log in</a></li>
-        </ul>
+            <div id="menubar">
+                <li><a class="active" href="#home">Home</a></li>
+                <li><a href="slots">slots</a></li>
+                <li><a href="Info">Informie</a></li>
+                <li><a href=LoginButton">Log in</a></li>
+                <li><a href=myprofile">mijn profiel</a></li>
+            </div>
 
     </body>
 </html>

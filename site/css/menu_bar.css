@@ -7,12 +7,7 @@ and open the template in the editor.
     Created on : 16-Nov-2017, 15:30:27
     Author     : Milan
 */
-#logo {
-  margin: 40px 0px 10px 433px  ;
-  float: left;   
-}
-
-#points {
+points {
     background-color: grey;
     width: 45px;    
     border: 10px white;
@@ -23,33 +18,28 @@ and open the template in the editor.
     float: right;
 }
 
-h1 {
-   margin: 70px 0px 10px 10px ; 
-   float: left;
-}
-
 #menubar {
     list-style-type: none;
-    margin: 150px 100px 100px 433px;
+    margin: 150px 0px 100px 433px;
     padding: 0;
     overflow: hidden;
     background-color: #333;
-    width: 32%;
-    position: fixed;        
+    display: inline-block;
 }
 
-li {
+#menubutton {
     float: left;
 }
 
-li a {
+#menubutton {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 36px;
+    padding: 7px 18px;
     text-decoration: none;
 }
 
-li a:hover {
+#menubutton:hover {
     background-color: #111;
 }
+
